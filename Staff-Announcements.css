@@ -108,19 +108,27 @@
     min-height: 510px;
   }
 
+  .u-section-1 .u-text-1 {
+    margin-top: 30px;
+    margin-right: 107px;
+  }
+
   .u-section-1 .u-image-1 {
     height: 141px;
+    margin-top: 19px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-text-2 {
+    margin-top: 19px;
     margin-right: 49px;
     margin-left: 0;
   }
 
   .u-section-1 .u-text-3 {
+    margin-top: -16px;
     margin-left: 0;
     margin-right: 0;
   }
