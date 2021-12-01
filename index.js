@@ -22,9 +22,11 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     document.getElementById("user_div").style.display = "none";
     document.getElementById("login_div").style.display = "block";
-
+      setTimeout(function(){
+        window.location.href = 'https://www.tutorialspoint.com/javascript/';
+     }, 5000);
   }
-});
+  });
 
 function login(){
 
@@ -42,7 +44,6 @@ function login(){
   });
 
 }
-
 function logout(){
   firebase.auth().signOut();
 }
