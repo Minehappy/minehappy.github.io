@@ -8,9 +8,13 @@ firebase.auth().onAuthStateChanged((user)=>{
 
 
 function logout(){
-    location.replace("Authentication.html")
     firebase.auth().signOut()
-}
+    .then(() => {
+        location.replace("Authentication.html")
+      })
+    }
+
+    
 
 function announcements(){
     location.replace("Staff-Announcements.html")
