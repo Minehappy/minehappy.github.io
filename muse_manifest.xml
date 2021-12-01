@@ -1,0 +1,27 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="robloxmemes.ml" resolutions="1x" timestamp="1638319911623">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="4099332536" ref="test-page:index"/>
+    <file name="test-page.css" crc="169693958" ref="test-page"/>
+    <file name="index.css" crc="365756639" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="untitled.png" crc="440123569" seo="true" mt="1638286491000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:test-page"/>
+    <file name="museutils.js" crc="3939489907" ref="index:test-page"/>
+    <file name="whatinput.js" crc="86476730" ref="index:test-page"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:test-page"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:test-page"/>
+    <file name="require.js" crc="4177726516" ref="index:test-page"/>
+  </folder>
+  <folder name="images">
+    <file name="untitled (1).png" crc="3917009326" seo="true" ref="index:test-page">
+      <caption webpage="index" alt=""/>
+      <caption webpage="test-page" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="414261301" seo="true" mt="1638319642580" redirect="true"/>
+  <file name="test-page.html" crc="65610039" seo="true" mt="1638319872536" redirect="true"/>
+</manifest>

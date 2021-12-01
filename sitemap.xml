@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://robloxmemes.ml/index.html</loc>
+    <lastmod>2021-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://robloxmemes.ml/images/untitled%20(1).png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://robloxmemes.ml/test-page.html</loc>
+    <lastmod>2021-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://robloxmemes.ml/images/untitled%20(1).png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://robloxmemes.ml/assets/untitled.png</loc>
+    <lastmod>2021-11-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
