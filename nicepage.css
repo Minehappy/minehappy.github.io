@@ -35188,7 +35188,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -58px calc(((100% - 1140px) / 2) + 268px) 22px auto;
+  margin: -58px auto 40px;
 }
 
 .u-header .u-nav-1 {
@@ -35219,7 +35219,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -67px;
-    margin-right: auto;
     margin-bottom: 60px;
   }
 
