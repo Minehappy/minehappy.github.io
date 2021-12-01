@@ -2,6 +2,6 @@ firebase.auth().onAuthStateChanged((user)=>{
     if(!user){
         location.replace("index.html")
     }else{
-        location.replace("staffannouncement.html")
+        document.getElementById("main")
     }
 })
