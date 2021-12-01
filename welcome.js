@@ -13,7 +13,6 @@ function logout(){
         location.replace("Authentication.html")
       })
     }
-
     
 
 function announcements(){
