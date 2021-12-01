@@ -10,3 +10,7 @@ firebase.auth().onAuthStateChanged((user)=>{
 function logout(){
     firebase.auth().signOut()
 }
+
+function announcements(){
+    location.replace("announcements.html")
+}
