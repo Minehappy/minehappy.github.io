@@ -12,5 +12,5 @@ function logout(){
 }
 
 function announcements(){
-    location.replace("announcements.html")
+    location.replace("staffannouncements.html")
 }
