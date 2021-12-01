@@ -45,7 +45,6 @@ body{
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     color: steelblue;
-    text-align: center;
 }
 
 .success{
@@ -54,3 +53,7 @@ body{
     color: seagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.center {
+    text-align: center;
+    }
