@@ -8,7 +8,7 @@ $form = array(
     'success_redirect' => '',
     'sendIpAddress' => true,
     'email' => array(
-    'from' => 'forms-noreply@robloxmemes.ml',
+    'from' => '',
     'to' => 'support@robloxmemes.ml'
     ),
     'fields' => array(
