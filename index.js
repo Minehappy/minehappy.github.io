@@ -11,9 +11,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       var email_id = user.email;
       document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
-      setTimeout(function(){
-        window.location.href = 'https://www.tutorialspoint.com/javascript/';
-     }, 5000);
 
     }
 
@@ -23,7 +20,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     document.getElementById("user_div").style.display = "none";
     document.getElementById("login_div").style.display = "block";
       setTimeout(function(){
-        window.location.href = 'https://www.tutorialspoint.com/javascript/';
+        window.location.href = 'https://www.robloxmemes.ml/Staff-Login.html';
      }, 5000);
   }
   });
