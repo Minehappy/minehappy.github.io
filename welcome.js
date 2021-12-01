@@ -3,7 +3,6 @@ firebase.auth().onAuthStateChanged((user)=>{
         location.replace("index.html")
     }else{
         document.getElementById("user")
-        var useremail = +user.mail 
     }
 })
 
