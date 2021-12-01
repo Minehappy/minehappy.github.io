@@ -1,46 +1,18 @@
-firebase.auth().onAuthStateChanged(function(user) {
-  if (user) {
-    // User is signed in.
+document.getElementById("loginForm").addEventListener("submit",(event)=>{
+    event.preventDefault()
+})
 
-    document.getElementById("user_div").style.display = "block";
-    document.getElementById("login_div").style.display = "none";
-
-    var user = firebase.auth().currentUser;
-
-    if(user != null){
-
-      var email_id = user.email;
-      document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
-
+firebase.auth().onAuthStateChanged((user)=>{
+    if(user){
+        location.replace("welcome.html")
     }
-
-  } else {
-    // No user is signed in.
-
-    document.getElementById("user_div").style.display = "none";
-    document.getElementById("login_div").style.display = "block";
-      setTimeout(function(){
-        window.location.href = 'https://www.robloxmemes.ml/Staff-Login.html';
-     }, 5000);
-  }
-  });
+})
 
 function login(){
-
-  var userEmail = document.getElementById("email_field").value;
-  var userPass = document.getElementById("password_field").value;
-
-  firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function(error) {
-    // Handle Errors here.
-    var errorCode = error.code;
-    var errorMessage = error.message;
-
-    window.alert("Error : " + errorMessage);
-
-    // ...
-  });
-
-}
-function logout(){
-  firebase.auth().signOut();
+    const email = document.getElementById("email").value
+    const password = document.getElementById("password").value
+    firebase.auth().signInWithEmailAndPassword(email, password)
+    .catch((error)=>{
+        document.getElementById("error").innerHTML = error.message
+    })
 }
