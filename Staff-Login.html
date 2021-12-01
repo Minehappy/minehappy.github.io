@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-auth.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyD8KU1QJUxFCi30Qma5vzX4wxh_Rbhjwy4",
+    authDomain: "rm-staff-login.firebaseapp.com",
+    projectId: "rm-staff-login",
+    storageBucket: "rm-staff-login.appspot.com",
+    messagingSenderId: "256352558657",
+    };
+    firebase.initializeApp(config);
+  </script>
+<script src="staff-auth.js"></script>
+
+<div id="user_hello" class="loggedin-div2">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -81,4 +97,5 @@
       </a>. 
     </section>
   </body>
+</div>
 </html>
