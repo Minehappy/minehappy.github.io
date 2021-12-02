@@ -18,3 +18,7 @@ function logout(){
 function announcements(){
     location.replace("Staff-Announcements.html")
 }
+
+function instructions(){
+    location.replace("Yandex-Instructions.html")
+}
