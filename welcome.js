@@ -20,5 +20,5 @@ function announcements(){
 }
 
 function instructions(){
-    location.replace("Yandex-Instructions.html")
+    location.replace("instructions.html")
 }
