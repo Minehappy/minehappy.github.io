@@ -1,7 +1,9 @@
 firebase.auth().onAuthStateChanged((user)=>{
     if(!user){
-        location.replace("Authentication.html")
+        location.replace("welcome.html")
     }else{
-        document.getElementById("user")
+        setTimeout(function(){
+            document.getElementById("user");
+         }, 3000);
     }
 })
