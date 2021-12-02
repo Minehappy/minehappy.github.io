@@ -4,16 +4,16 @@
 
 .u-section-1 .u-image-1 {
   filter: brightness(0.5);
-  height: 641px;
-  margin-top: 113px;
-  margin-bottom: 0;
+  height: 651px;
+  width: 1334px;
+  margin: 113px auto 0 calc(((100% - 1140px) / 2) + -114px);
 }
 
 .u-section-1 .u-text-1 {
   font-weight: 400;
   font-size: 6rem;
   text-align: center;
-  margin: -569px 168px 60px;
+  margin: -572px 168px 60px;
 }
 
 .u-section-1 .u-text-2 {
@@ -25,13 +25,34 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 561px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 459px;
+    width: 940px;
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
   .u-section-1 .u-text-1 {
+    margin-top: -380px;
     margin-right: 68px;
     margin-left: 68px;
   }
 }
 
 @media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 454px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 352px;
+    width: 720px;
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 4.5rem;
     width: auto;
@@ -42,8 +63,15 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 366px;
+  }
+
   .u-section-1 .u-image-1 {
+    height: 264px;
     margin-top: 124px;
+    width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-text-1 {
@@ -63,7 +91,10 @@
   }
 
   .u-section-1 .u-image-1 {
+    height: 166px;
     margin-top: 108px;
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-section-1 .u-text-1 {
@@ -99,6 +130,7 @@
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/FZDXZSD2.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -141,7 +173,7 @@
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   animation-duration: 1000ms;
   font-size: 1.25rem;
-  font-weight: normal;
+  font-weight: 700;
   margin: -58px 319px 60px auto;
   padding: 12px 44px 14px 43px;
 }
@@ -168,7 +200,6 @@
   }
 
   .u-section-2 .u-btn-2 {
-    font-weight: 700;
     margin-right: 218px;
   }
 }
@@ -200,7 +231,6 @@
     margin-top: 23px;
     margin-right: auto;
     margin-left: 231px;
-    font-weight: normal;
   }
 }
 
@@ -227,7 +257,6 @@
   }
 
   .u-section-2 .u-btn-2 {
-    font-weight: 700;
     margin-left: auto;
   }
 }
