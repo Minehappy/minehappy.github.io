@@ -20,5 +20,5 @@ function announcements(){
 }
 
 function instructions(){
-    location.replace("instructions.html")
+    location.replace("email-instructions.html")
 }
