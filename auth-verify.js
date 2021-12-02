@@ -5,7 +5,7 @@ firebase.auth().onAuthStateChanged((user)=>{
          }, 3000);
     }else{
         setTimeout(function(){
-            document.getElementById("user");
+            location.replace("welcome.html")
          }, 3000);
     }
 })
