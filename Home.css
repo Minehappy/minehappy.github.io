@@ -109,7 +109,7 @@
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   animation-duration: 1000ms;
   font-size: 1.25rem;
-  font-weight: normal;
+  font-weight: 700;
   margin: 68px auto 0 289px;
   padding: 12px 44px 14px 43px;
 }
@@ -121,7 +121,7 @@
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   animation-duration: 1000ms;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: normal;
   margin: -58px 319px 60px auto;
   padding: 12px 44px 14px 43px;
 }
@@ -223,11 +223,11 @@
   }
 
   .u-section-2 .u-btn-1 {
-    font-weight: 700;
     margin-top: 44px;
   }
 
   .u-section-2 .u-btn-2 {
+    font-weight: 700;
     margin-top: 27px;
   }
 }
